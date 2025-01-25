@@ -28,6 +28,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"StartTurnedOff","filters":[],"listItems":[],"multiselect":false,"name":"StartTurnedOff","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"TargetRoomGoal","filters":[],"listItems":[],"multiselect":false,"name":"TargetRoomGoal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"r_TestRoom","path":"rooms/r_TestRoom/r_TestRoom.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"r_TestRoom","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

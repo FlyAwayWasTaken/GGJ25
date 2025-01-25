@@ -12,10 +12,30 @@ if YMomentum > 4
 {
 	YMomentum = 4	
 }
+if XMomentum < -4
+{
+	XMomentum = -4	
+}
+if YMomentum < -4
+{
+	YMomentum = -4	
+}
 
 //apply momentum and drag
-x += XMomentum
-y += YMomentum
+//only do this if alive
+if image_index = 0 
+{
+	x += XMomentum
+	y += YMomentum
+	
+	//if XMomentum > 0.2 or XMomentum < -0.2 or YMomentum > 0.2 or YMomentum < -0.2
+	//{
+	//	if irandom_range(0,5) = 0
+	//	{
+	//		instance_create_layer(x + irandom_range(-10,10),y + irandom_range(-10,10),"Instances",o_BubbleParticle)
+	//	}
+	//}
+}
 
 //check if we are touching a wall 
 
@@ -41,6 +61,8 @@ for (var i = 0; i < WallIDListSize; i++)
 		var PlayerAngle = point_direction(CurrentID.x + 8,CurrentID.y + 8,x,y)
 		var XDistance = abs(lengthdir_x(PlayerDistance,PlayerAngle))
 		var YDistance = abs(lengthdir_y(PlayerDistance,PlayerAngle))
+		XMomentum -= lengthdir_x(PlayerDistance,PlayerAngle) / 100
+		YMomentum -= lengthdir_y(PlayerDistance,PlayerAngle) / 100
 		if XDistance >= YDistance 
 		{
 			//left or right side so invert x momentum
