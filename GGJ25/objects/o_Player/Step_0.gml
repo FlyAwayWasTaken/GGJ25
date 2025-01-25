@@ -3,6 +3,16 @@ if WallBounceTimer > 0
 	WallBounceTimer -= 1 
 }
 
+//check terminal velocity
+if XMomentum > 4
+{
+	XMomentum = 4	
+}
+if YMomentum > 4
+{
+	YMomentum = 4	
+}
+
 //apply momentum and drag
 x += XMomentum
 y += YMomentum
