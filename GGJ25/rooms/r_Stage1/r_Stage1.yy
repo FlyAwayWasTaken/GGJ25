@@ -195,6 +195,7 @@
     {"name":"inst_3D9AA110","path":"rooms/r_Stage1/r_Stage1.yy",},
     {"name":"inst_53C1A903","path":"rooms/r_Stage1/r_Stage1.yy",},
     {"name":"inst_3456BDED","path":"rooms/r_Stage1/r_Stage1.yy",},
+    {"name":"inst_5B2A88F1","path":"rooms/r_Stage1/r_Stage1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -219,6 +220,7 @@
         {"$GMRInstance":"v1","%Name":"inst_3D9AA110","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D9AA110","objectId":{"name":"o_Spike","path":"objects/o_Spike/o_Spike.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":80.0,},
         {"$GMRInstance":"v1","%Name":"inst_53C1A903","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53C1A903","objectId":{"name":"o_Spike","path":"objects/o_Spike/o_Spike.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":80.0,},
         {"$GMRInstance":"v1","%Name":"inst_3456BDED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3456BDED","objectId":{"name":"o_Spike","path":"objects/o_Spike/o_Spike.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":180.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":80.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5B2A88F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B2A88F1","objectId":{"name":"o_Tutorial","path":"objects/o_Tutorial/o_Tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":70.0,"y":144.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Shader","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_99AA217_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_99AA217_1","objectId":{"name":"o_ShaderController","path":"objects/o_ShaderController/o_ShaderController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
