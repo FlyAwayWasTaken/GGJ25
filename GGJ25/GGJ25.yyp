@@ -96,6 +96,8 @@
     {"id":{"name":"s_EndScreenBG","path":"sprites/s_EndScreenBG/s_EndScreenBG.yy",},},
     {"id":{"name":"s_Fan","path":"sprites/s_Fan/s_Fan.yy",},},
     {"id":{"name":"s_Goal","path":"sprites/s_Goal/s_Goal.yy",},},
+    {"id":{"name":"s_ItchBG","path":"sprites/s_ItchBG/s_ItchBG.yy",},},
+    {"id":{"name":"s_ItchBG1","path":"sprites/s_ItchBG1/s_ItchBG1.yy",},},
     {"id":{"name":"s_MainArt","path":"sprites/s_MainArt/s_MainArt.yy",},},
     {"id":{"name":"s_MainArt2","path":"sprites/s_MainArt2/s_MainArt2.yy",},},
     {"id":{"name":"s_MainArt3","path":"sprites/s_MainArt3/s_MainArt3.yy",},},
