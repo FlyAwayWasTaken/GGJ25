@@ -13,3 +13,8 @@ if distance_to_object(o_Player) < 40
 	o_Player.XMomentum += lengthdir_x(PlayerDistance,PlayerDirection) / 500
 	o_Player.YMomentum += lengthdir_y(PlayerDistance,PlayerDirection) / 500
 }
+
+if !audio_is_playing(mus_BlowLoop) and !audio_is_playing(mus_BlowStart) and !audio_is_playing(mus_BlowStart)
+{
+	audio_play_sound(mus_BlowLoop,1,true)	
+}
